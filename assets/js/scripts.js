@@ -18,18 +18,19 @@
         loading: "lazy",
         reveal: "manual",
         // crossorigin: "anonymous",
-        style: "height: 300px; width: 100%;",
+        style: "height: 200px; width: 100%;",
         "autoplay": true,
         "camera-controls": true,
         "touch-action": "pan-y",
         "shadow-intensity": "1",
         "max-camera-orbit": "auto 90deg auto",
-        exposure: "1"
+        exposure: "1",
+        "disable-zoom": true,
     };
 
     let meshAttributes = {
         Albert: {
-            src: "./assets/meshes/Albert Einstein in cartoon style wearing beach T-shirts and shorts_A person is performing the street dance with rhythm.glb",
+            src: "https://star-avatar.github.io/assets/meshes/Albert Einstein in cartoon style wearing beach T-shirts and shorts_A person is performing the street dance with rhythm.glb",
             poster: "./assets/images_poster/Albert.png",
             // "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
             caption: "Albert Einstein in cartoon style wearing beach T-shirts and shorts, he/she is performing the street dance with rhythm.",
