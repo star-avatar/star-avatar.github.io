@@ -41,7 +41,7 @@
 <body>
     <div class="highlight-clean" style="padding-bottom: 10px;">
         <div class="container" style="max-width: 800px;">
-            <h1 class="text-center"><b>&#127775;STAR</b>: Skeleton-aware Text-based 4D Avatar Generation with In-Network Motion Retargeting</h1>
+            <h2 class="text-center"><b>&#127775; STAR</b>: Skeleton-aware Text-based 4D Avatar Generation with In-Network Motion Retargeting</h2>
             <h4 class="text-center">arXiv Preprint</h4>
         </div>
         <div class="container" style="max-width: 768px;">
@@ -86,15 +86,27 @@
                 <span class="icon"><i class="fa solid fa-github"></i></span>
                 <span>Code</span>
             </a>
-            <!-- <a class="btn btn-light" role="button" href="./gallery.html">
-                <svg style="width:24px;height:24px;margin-left:-12px;margin-right:12px" width="24px" height="24px" viewBox="0 0 375 531">
-                    <polygon stroke="#000000" points="0.5,0.866 459.5,265.87 0.5,530.874 "/>
-                </svg>
-                Gallery
-            </a> -->
         </div>
     </div>
     <hr class="divider" />
+    <div class="container" style="max-width: 768px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Gallery</h2>
+                <video class="video lazy d-none d-xs-none d-sm-block" autoplay loop playsinline muted poster="./assets/images/teaser.jpg">
+                </video>
+                <video class="video lazy d-none d-xs-none d-sm-block" autoplay loop playsinline muted poster="./assets/images/teaser2.jpg">
+                </video>
+                <video class="video lazy d-none d-xs-none d-sm-block" autoplay loop playsinline muted poster="./assets/images/teaser3.jpg">
+                </video>
+                <video class="video lazy d-none d-xs-none d-sm-block" autoplay loop playsinline muted poster="./assets/images/teaser4.jpg">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider" />
+
     <div class="container" style="max-width: 768px;">
         <div class="row">
             <div class="col-md-12">
@@ -110,7 +122,7 @@
     <div class="container" style="max-width: 768px;">
         <div class="row captioned_videos">
             <div class="col-md-12">
-                  <video class="video lazy d-none d-xs-none d-sm-block" autoplay loop playsinline muted poster="./assets/images/pipeline.jpg">
+                <video class="video lazy d-none d-xs-none d-sm-block" autoplay loop playsinline muted poster="./assets/images/pipeline.jpg">
                 </video>
                 <h6 class="caption" style="text-align: justify;">Overview of the proposed STAR. Left. Given a text description, we initialize the human motion with pretrained text-to-motion model. Note that the typical optimization-by-animation paradigm easily yields deteriorated body structures and animation artifacts for 4D avatar generation. Right. We eliminate the potential pose distribution bias in the SDS-based optimization by integrating the retargeted motion for animation. With the personalized and occlusion-aware skeleton, we leverage the hybrid T2I and T2V diffusion models to provide 3D consistent priors that progressively optimize the geometry, texture, and motion to produce 4D avatar in an end-to-end manner.</h6>
             </div>

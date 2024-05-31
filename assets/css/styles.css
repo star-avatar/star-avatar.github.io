@@ -497,7 +497,9 @@ body {
     /* font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
     /* font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
     font-weight: 300;
-    font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+    /* font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif; */
+    font-family: optima, Optima Bold, Microsoft YaHei, Times New Roman, Times, serif;
+
 }
 
 /* code {
@@ -505,14 +507,16 @@ body {
 } */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+    font-family: optima, Optima Bold, Microsoft YaHei, Times New Roman, Times, serif;
+    /* font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif; */
     font-weight: 300;
     line-height: 1.1;
     color: inherit;
 }
 
 p, .caption {
-    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family: optima, Optima Bold, Microsoft YaHei, Times New Roman, Times, serif;
+    /* font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; */
     margin-top: 4px;
 }
 
